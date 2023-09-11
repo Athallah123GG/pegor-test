@@ -44,7 +44,7 @@ body {
 }
 
 a {
-  color: var(--color-primary);
+  color:var(--color-secondary);
   text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ h6 {
 .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -1268,3 +1268,13 @@ h6 {
 .footer .credits a {
   color: var(--color-primary);
 }
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, #27a776, rgba(0, 255, 17, 0.726))
+  }
+
